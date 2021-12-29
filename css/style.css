@@ -1,0 +1,183 @@
+.menu {
+    height: 700px;
+    overflow: hidden;
+    width: 1000px;
+  }
+  
+  .menu .overlap-group {
+    height: 830px;
+    left: -18px;
+    position: relative;
+    top: -125px;
+    width: 1051px;
+  }
+  
+  .menu .rectangle {
+    height: 825px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1051px;
+  }
+  
+  .menu .batu3-1 {
+    height: 170px;
+    left: 565px;
+    object-fit: cover;
+    position: absolute;
+    top: 435px;
+    width: 340px;
+  }
+  
+  .menu .batu2-1 {
+    height: 170px;
+    left: 93px;
+    object-fit: cover;
+    position: absolute;
+    top: 435px;
+    width: 340px;
+  }
+  
+  .menu .batu1-1 {
+    height: 170px;
+    left: 344px;
+    object-fit: cover;
+    position: absolute;
+    top: 628px;
+    width: 276px;
+  }
+  
+  .menu .landing-1 {
+    height: 170px;
+    left: 645px;
+    object-fit: cover;
+    position: absolute;
+    top: 350px;
+    width: 180px;
+  }
+  
+  .menu .fall-1 {
+    height: 170px;
+    left: 158px;
+    object-fit: cover;
+    position: absolute;
+    top: 375px;
+    width: 180px;
+  }
+  
+  .menu .jump-1 {
+    height: 170px;
+    left: 412px;
+    object-fit: cover;
+    position: absolute;
+    top: 526px;
+    width: 180px;
+  }
+  
+  .menu .rectangle-1 {
+    background-color: 
+  
+  #221f1f9e;
+    height: 705px;
+    left: 18px;
+    position: absolute;
+    top: 125px;
+    width: 1000px;
+  }
+  
+  .menu .das_login-1 {
+    height: 293px;
+    left: 375px;
+    object-fit: cover;
+    position: absolute;
+    top: 315px;
+    width: 252px;
+  }
+  
+  .menu .password {
+    left: 411px;
+    letter-spacing: 0;
+    position: absolute;
+    top: 435px;
+    width: 67px;
+  }
+  
+  .menu .place {
+    left: 411px;
+    letter-spacing: 0;
+    position: absolute;
+    top: 377px;
+    width: 67px;
+  }
+  
+  .menu .login {
+    left: 482px;
+    letter-spacing: 0;
+    position: absolute;
+    top: 324px;
+    width: 35px;
+  }
+  
+  .menu .login_req {
+    height: 42px;
+    left: 479px;
+    object-fit: cover;
+    position: absolute;
+    top: 503px;
+    width: 40px;
+  }
+  
+  .menu .login_-box-1 {
+    height: 28px;
+    left: 411px;
+    object-fit: cover;
+    position: absolute;
+    top: 397px;
+    width: 181px;
+  }
+  
+  .menu .login_-box-2 {
+    height: 28px;
+    left: 411px;
+    object-fit: cover;
+    position: absolute;
+    top: 455px;
+    width: 181px;
+  }
+  .menu .username {
+    height: 28px;
+    left: 411px;
+    object-fit: cover;
+    position: absolute;
+    top: 397px;
+    width: 181px;
+  }
+  
+  .menu .password {
+    height: 28px;
+    left: 411px;
+    object-fit: cover;
+    position: absolute;
+    top: 455px;
+    width: 181px;
+  }
+  @import url("https://fonts.googleapis.com/css?family=Roboto:400");
+  
+  .screen a {
+    display: contents;
+    text-decoration: none;
+  }
+  
+  .container-center-horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    pointer-events: none;
+    width: 100%;
+  }
+  
+  .container-center-horizontal > * {
+    flex-shrink: 0;
+    pointer-events: auto;
+  }
+  
