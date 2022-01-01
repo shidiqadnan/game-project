@@ -1,183 +1,217 @@
+body {
+  background-image: url(../assets/BACKGROUND.svg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 .menu {
-    height: 700px;
-    overflow: hidden;
-    width: 1000px;
-  }
-  
-  .menu .overlap-group {
-    height: 830px;
-    left: -18px;
-    position: relative;
-    top: -125px;
-    width: 1051px;
-  }
-  
-  .menu .rectangle {
-    height: 825px;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 1051px;
-  }
-  
-  .menu .batu3-1 {
-    height: 170px;
-    left: 565px;
-    object-fit: cover;
-    position: absolute;
-    top: 435px;
-    width: 340px;
-  }
-  
-  .menu .batu2-1 {
-    height: 170px;
-    left: 93px;
-    object-fit: cover;
-    position: absolute;
-    top: 435px;
-    width: 340px;
-  }
-  
-  .menu .batu1-1 {
-    height: 170px;
-    left: 344px;
-    object-fit: cover;
-    position: absolute;
-    top: 628px;
-    width: 276px;
-  }
-  
-  .menu .landing-1 {
-    height: 170px;
-    left: 645px;
-    object-fit: cover;
-    position: absolute;
-    top: 350px;
-    width: 180px;
-  }
-  
-  .menu .fall-1 {
-    height: 170px;
-    left: 158px;
-    object-fit: cover;
-    position: absolute;
-    top: 375px;
-    width: 180px;
-  }
-  
-  .menu .jump-1 {
-    height: 170px;
-    left: 412px;
-    object-fit: cover;
-    position: absolute;
-    top: 526px;
-    width: 180px;
-  }
-  
-  .menu .rectangle-1 {
-    background-color: 
-  
-  #221f1f9e;
-    height: 705px;
-    left: 18px;
-    position: absolute;
-    top: 125px;
-    width: 1000px;
-  }
-  
-  .menu .das_login-1 {
-    height: 293px;
-    left: 375px;
-    object-fit: cover;
-    position: absolute;
-    top: 315px;
-    width: 252px;
-  }
-  
-  .menu .password {
-    left: 411px;
-    letter-spacing: 0;
-    position: absolute;
-    top: 435px;
-    width: 67px;
-  }
-  
-  .menu .place {
-    left: 411px;
-    letter-spacing: 0;
-    position: absolute;
-    top: 377px;
-    width: 67px;
-  }
-  
-  .menu .login {
-    left: 482px;
-    letter-spacing: 0;
-    position: absolute;
-    top: 324px;
-    width: 35px;
-  }
-  
-  .menu .login_req {
-    height: 42px;
-    left: 479px;
-    object-fit: cover;
-    position: absolute;
-    top: 503px;
-    width: 40px;
-  }
-  
-  .menu .login_-box-1 {
-    height: 28px;
-    left: 411px;
-    object-fit: cover;
-    position: absolute;
-    top: 397px;
-    width: 181px;
-  }
-  
-  .menu .login_-box-2 {
-    height: 28px;
-    left: 411px;
-    object-fit: cover;
-    position: absolute;
-    top: 455px;
-    width: 181px;
-  }
-  .menu .username {
-    height: 28px;
-    left: 411px;
-    object-fit: cover;
-    position: absolute;
-    top: 397px;
-    width: 181px;
-  }
-  
-  .menu .password {
-    height: 28px;
-    left: 411px;
-    object-fit: cover;
-    position: absolute;
-    top: 455px;
-    width: 181px;
-  }
-  @import url("https://fonts.googleapis.com/css?family=Roboto:400");
-  
-  .screen a {
-    display: contents;
-    text-decoration: none;
-  }
-  
-  .container-center-horizontal {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    pointer-events: none;
-    width: 100%;
-  }
-  
-  .container-center-horizontal > * {
-    flex-shrink: 0;
-    pointer-events: auto;
-  }
-  
+  height: 700px;
+  overflow: hidden;
+  width: 1000px;
+}
+
+.menu .overlap-group {
+  height: 830px;
+  left: -18px;
+  position: relative;
+  top: -125px;
+  width: 1051px;
+}
+
+.menu .rectangle {
+  height: 825px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1051px;
+}
+
+/* Batu */
+
+.menu .batu3-1 {
+  position: absolute;
+  left: 55%;
+  right: 11.3%;
+  top: 75.6%;
+  bottom: 31.43%;
+}
+
+.menu .batu2-1 {
+  position: absolute;
+  left: 14.5%;
+  right: 58.5%;
+  top: 72.9%;
+  bottom: 31.43%;
+}
+
+.menu .batu1-1 {
+  position: absolute;
+  left: 35.2%;
+  right: 12.2%;
+  top: 108.86%;
+  bottom: 3.86%;
+}
+
+/* Karakter*/
+
+.menu .landing-1 {
+  position: absolute;
+  left: 60.7%;
+  right: 19.3%;
+  top: 62.14%;
+  bottom: 43.57%;
+}
+
+.menu .fall-1 {
+  position: absolute;
+  left: 20%;
+  right: 68%;
+  top: 62.71%;
+  bottom: 40%;
+}
+
+.menu .jump-1 {
+  position: absolute;
+  left: 39.4%;
+  right: 42.6%;
+  top: 92%;
+  bottom: 18.43%;
+}
+
+/* Dash Login*/
+
+.menu .das_login-1 {
+  position: absolute;
+  left: 37.7%;
+  right: 39.09%;
+  top: 57.14%;
+  bottom: 31%;
+}
+
+.menu .passwod {
+  position: absolute;
+  left: 40.3%;
+  right: 54%;
+  top: 77.5%;
+  bottom: 54.29%;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #ffffff;
+}
+
+.menu .place {
+  position: absolute;
+  left: 40.3%;
+  right: 54%;
+  top: 66.5%;
+  bottom: 62.57%;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #ffffff;
+}
+
+.menu .login {
+  position: absolute;
+  left: 45.5%;
+  right: 50.1%;
+  top: 58.43%;
+  bottom: 70.14%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #ffffff;
+}
+
+.menu .login_req {
+  position: absolute;
+  left: 45.5%;
+  right: 49.92%;
+  top: 88.5%;
+  bottom: 40%;
+}
+
+.menu .login_-box-1 {
+  position: absolute;
+  left: 40.3%;
+  right: 42.63%;
+  top: 68.86%;
+  bottom: 57.14%;
+}
+
+.menu .login_-box-2 {
+  position: absolute;
+  left: 40.3%;
+  right: 42.63%;
+  top: 80.14%;
+  bottom: 48.86%;
+}
+.menu .username {
+  position: absolute;
+  border: transparent;
+  background: transparent;
+  left: 40.9%;
+  right: 47%;
+  top: 69.86%;
+  bottom: 50%;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.menu .password {
+  position: absolute;
+  background: transparent;
+  border-color: transparent;
+  left: 40.9%;
+  right: 47%;
+  top: 80.5%;
+  bottom: 50%;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+}
+@import url("https://fonts.googleapis.com/css?family=Roboto:400");
+
+/* Screen*/
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 1000px;
+  height: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
