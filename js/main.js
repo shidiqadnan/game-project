@@ -4,7 +4,7 @@ jQuery(document).ready(function($){
 		event.preventDefault();
 		$('.cd-popup').addClass('is-visible');
 	});
-	
+
 	//close popup
 	$('.cd-popup').on('click', function(event){
 		if( $(event.target).is('.cd-popup-close') || $(event.target).is('.cd-popup') ) {
@@ -18,4 +18,22 @@ jQuery(document).ready(function($){
     		$('.cd-popup').removeClass('is-visible');
 	    }
     });
+
+	$('.cd-pup-trigger').on('click', function(event){
+		event.preventDefault();
+		$('.cd-pup').addClass('is-visible');
+	});
+		//close pup
+	$('.cd-pup').on('click', function(event){
+		if( $(event.target).is('.cd-pup-close') || $(event.target).is('.cd-pup') ) {
+			event.preventDefault();
+			$(this).removeClass('is-visible');
+		}
+	});
+	//close pup when clicking the esc keyboard button
+	$(document).keyup(function(event){
+		if(event.which=='27'){
+			$('.cd-pup').removeClass('is-visible');
+		}
+	});
 });
