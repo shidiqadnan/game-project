@@ -1,3 +1,21 @@
+/* -------------------------------- 
+
+Primary style
+
+-------------------------------- */
+html * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 body {
   background-image: url(../assets/BACKGROUND.svg);
   -webkit-background-size: cover;
@@ -5,97 +23,111 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
-.menu {
-  height: 700px;
+
+a {
+  color: #35a785;
+  text-decoration: none;
+}
+
+/* -------------------------------- 
+
+Modules - reusable parts of our design
+
+-------------------------------- */
+.img-replace {
+  /* replace text with an image */
+  display: inline-block;
   overflow: hidden;
-  width: 1000px;
+  text-indent: 100%;
+  color: transparent;
+  white-space: nowrap;
 }
 
-.menu .overlap-group {
-  height: 830px;
-  left: -18px;
-  position: relative;
-  top: -125px;
-  width: 1051px;
+/* -------------------------------- 
+
+Main components 
+
+-------------------------------- */
+
+.cd-popup-trigger {
+  display: block;
+  width: 170px;
+  height: 50px;
+  line-height: 50px;
+  margin: 3em auto;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 50em;
+  background: red;
+  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.07);
+}
+@media only screen and (min-width: 1170px) {
+  .cd-popup-trigger {
+    margin: 10em auto;
+  }
 }
 
-.menu .rectangle {
-  height: 825px;
+/* -------------------------------- 
+
+xpopup 
+
+-------------------------------- */
+.cd-popup {
+  position: fixed;
   left: 0;
-  position: absolute;
   top: 0;
-  width: 1051px;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: opacity 0.3s 0s, visibility 0s 0.3s;
+  -moz-transition: opacity 0.3s 0s, visibility 0s 0.3s;
+  transition: opacity 0.3s 0s, visibility 0s 0.3s;
+}
+.cd-popup.is-visible {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: opacity 0.3s 0s, visibility 0s 0s;
+  -moz-transition: opacity 0.3s 0s, visibility 0s 0s;
+  transition: opacity 0.3s 0s, visibility 0s 0s;
 }
 
-/* Batu */
-
-.menu .batu3-1 {
+.cd-popup-container {
   position: absolute;
-  left: 55%;
-  right: 11.3%;
-  top: 75.6%;
-  bottom: 31.43%;
-}
-
-.menu .batu2-1 {
-  position: absolute;
-  left: 14.5%;
-  right: 58.5%;
-  top: 72.9%;
-  bottom: 31.43%;
-}
-
-.menu .batu1-1 {
-  position: absolute;
-  left: 35.2%;
-  right: 12.2%;
-  top: 108.86%;
-  bottom: 3.86%;
-}
-
-/* Karakter*/
-
-.menu .landing-1 {
-  position: absolute;
-  left: 60.7%;
-  right: 19.3%;
-  top: 62.14%;
-  bottom: 43.57%;
-}
-
-.menu .fall-1 {
-  position: absolute;
-  left: 20%;
-  right: 68%;
-  top: 62.71%;
-  bottom: 40%;
-}
-
-.menu .jump-1 {
-  position: absolute;
-  left: 39.4%;
-  right: 42.6%;
-  top: 92%;
-  bottom: 18.43%;
-}
-
-/* Dash Login*/
-
-.menu .das_login-1 {
-  position: absolute;
-  left: 37.7%;
+  left: 35.7%;
   right: 39.09%;
-  top: 57.14%;
-  bottom: 31%;
+  top: 20.14%;
+  bottom: 21%;
+  width: 500px;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-image: url(../assets/das-login-1.png);
+  -webkit-transform: translateY(-40px);
+  -moz-transform: translateY(-40px);
+  -ms-transform: translateY(-40px);
+  -o-transform: translateY(-40px);
+  transform: translateY(-40px);
+  /* Force Hardware Acceleration in WebKit */
+  -webkit-backface-visibility: hidden;
+  -webkit-transition-property: -webkit-transform;
+  -moz-transition-property: -moz-transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s
+  -moz-transition-duration: 0.3s;
+  transition-duration: 0.3s;
 }
 
-.menu .passwod {
+.cd-popup-container .cd-popup-login{
   position: absolute;
-  left: 40.3%;
-  right: 54%;
-  top: 77.5%;
-  bottom: 54.29%;
-
+  left: 21.5%;
+  right: 50.1%;
+  top: 1.43%;
+  bottom: 70.14%;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -105,11 +137,26 @@ body {
   color: #ffffff;
 }
 
-.menu .place {
+.cd-popup-container .cd-popup-place{
   position: absolute;
-  left: 40.3%;
+  left: 7.3%;
   right: 54%;
-  top: 66.5%;
+  top: 11.5%;
+  bottom: 62.57%;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #ffffff;
+}
+.cd-popup-container .cd-popup-paswod{
+  position: absolute;
+  left: 7.3%;
+  right: 54%;
+  top: 22.5%;
   bottom: 62.57%;
 
   font-family: Roboto;
@@ -121,97 +168,108 @@ body {
   color: #ffffff;
 }
 
-.menu .login {
+.cd-popup-container .cd-popup-login-req {
   position: absolute;
-  left: 45.5%;
-  right: 50.1%;
-  top: 58.43%;
-  bottom: 70.14%;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 14px;
-
-  color: #ffffff;
-}
-
-.menu .login_req {
-  position: absolute;
-  left: 45.5%;
-  right: 49.92%;
-  top: 88.5%;
+  left: 20.5%;
+  right: 30.92%;
+  top: 40.5%;
   bottom: 40%;
+  background-image: url(../assets/login-req.png);
+  background-repeat: no-repeat;
 }
-
-.menu .login_-box-1 {
+.cd-popup-container .cd-pop-login-box-1{
   position: absolute;
-  left: 40.3%;
+  left: 7.3%;
   right: 42.63%;
-  top: 68.86%;
+  top: 14.86%;
   bottom: 57.14%;
+  background-repeat: no-repeat;
+  background-image:url(../assets/login-box-1.png);
+}
+.cd-popup-container .cd-pop-login-box-2{
+  position: absolute;
+  left: 7.3%;
+  right: 42.63%;
+  top: 26.14%;
+  bottom: 48.86%;
+  background-repeat: no-repeat;
+  background-image: url(../assets/login-box-1.png);
 }
 
-.menu .login_-box-2 {
-  position: absolute;
-  left: 40.3%;
-  right: 42.63%;
-  top: 80.14%;
-  bottom: 48.86%;
-}
-.menu .username {
+.cd-popup-container .cd-popup-username{
   position: absolute;
   border: transparent;
   background: transparent;
-  left: 40.9%;
+  left: 7.9%;
   right: 47%;
-  top: 69.86%;
-  bottom: 50%;
+  top: 15.86%;
+  bottom: 81%;
 
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
   line-height: 14px;
-
-  /* identical to box height */
-
-  color: #ffffff;
+  color: #fff;
 }
-
-.menu .password {
+.cd-popup-container .cd-popup-password{
   position: absolute;
+  border: transparent;
   background: transparent;
-  border-color: transparent;
-  left: 40.9%;
+  left: 7.9%;
   right: 47%;
-  top: 80.5%;
-  bottom: 50%;
+  top: 26.8%;
+  bottom: 69%;
 
-  font-family: Roboto;
+  font-family Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
   line-height: 14px;
-}
-@import url("https://fonts.googleapis.com/css?family=Roboto:400");
-
-/* Screen*/
-.screen a {
-  display: contents;
-  text-decoration: none;
+  color: #fff;
 }
 
-.container-center-horizontal {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  pointer-events: none;
-  width: 1000px;
-  height: 100%;
+.cd-popup-container .cd-popup-close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 30px;
+  height: 30px;
 }
-
-.container-center-horizontal > * {
-  flex-shrink: 0;
-  pointer-events: auto;
+.cd-popup-container .cd-popup-close::before,
+.cd-popup-container .cd-popup-close::after {
+  content: "";
+  position: absolute;
+  top: 12px;
+  width: 14px;
+  height: 3px;
+  background-color: #8f9cb5;
+}
+.cd-popup-container .cd-popup-close::before {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  left: 8px;
+}
+.cd-popup-container .cd-popup-close::after {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  right: 8px;
+}
+.is-visible .cd-popup-container {
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+  transform: translateY(0);
+}
+@media only screen and (min-width: 1170px) {
+  .cd-popup-container {
+    margin: 0, 9em auto;
+  }
 }
