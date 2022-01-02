@@ -1,0 +1,217 @@
+body {
+  background-image: url(../assets/BACKGROUND.svg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.menu {
+  height: 700px;
+  overflow: hidden;
+  width: 1000px;
+}
+
+.menu .overlap-group {
+  height: 830px;
+  left: -18px;
+  position: relative;
+  top: -125px;
+  width: 1051px;
+}
+
+.menu .rectangle {
+  height: 825px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1051px;
+}
+
+/* Batu */
+
+.menu .batu3-1 {
+  position: absolute;
+  left: 55%;
+  right: 11.3%;
+  top: 75.6%;
+  bottom: 31.43%;
+}
+
+.menu .batu2-1 {
+  position: absolute;
+  left: 14.5%;
+  right: 58.5%;
+  top: 72.9%;
+  bottom: 31.43%;
+}
+
+.menu .batu1-1 {
+  position: absolute;
+  left: 35.2%;
+  right: 12.2%;
+  top: 108.86%;
+  bottom: 3.86%;
+}
+
+/* Karakter*/
+
+.menu .landing-1 {
+  position: absolute;
+  left: 60.7%;
+  right: 19.3%;
+  top: 62.14%;
+  bottom: 43.57%;
+}
+
+.menu .fall-1 {
+  position: absolute;
+  left: 20%;
+  right: 68%;
+  top: 62.71%;
+  bottom: 40%;
+}
+
+.menu .jump-1 {
+  position: absolute;
+  left: 39.4%;
+  right: 42.6%;
+  top: 92%;
+  bottom: 18.43%;
+}
+
+/* Dash Login*/
+
+.menu .das_login-1 {
+  position: absolute;
+  left: 37.7%;
+  right: 39.09%;
+  top: 57.14%;
+  bottom: 31%;
+}
+
+.menu .passwod {
+  position: absolute;
+  left: 40.3%;
+  right: 54%;
+  top: 77.5%;
+  bottom: 54.29%;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #ffffff;
+}
+
+.menu .place {
+  position: absolute;
+  left: 40.3%;
+  right: 54%;
+  top: 66.5%;
+  bottom: 62.57%;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #ffffff;
+}
+
+.menu .login {
+  position: absolute;
+  left: 45.5%;
+  right: 50.1%;
+  top: 58.43%;
+  bottom: 70.14%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #ffffff;
+}
+
+.menu .login_req {
+  position: absolute;
+  left: 45.5%;
+  right: 49.92%;
+  top: 88.5%;
+  bottom: 40%;
+}
+
+.menu .login_-box-1 {
+  position: absolute;
+  left: 40.3%;
+  right: 42.63%;
+  top: 68.86%;
+  bottom: 57.14%;
+}
+
+.menu .login_-box-2 {
+  position: absolute;
+  left: 40.3%;
+  right: 42.63%;
+  top: 80.14%;
+  bottom: 48.86%;
+}
+.menu .username {
+  position: absolute;
+  border: transparent;
+  background: transparent;
+  left: 40.9%;
+  right: 47%;
+  top: 69.86%;
+  bottom: 50%;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.menu .password {
+  position: absolute;
+  background: transparent;
+  border-color: transparent;
+  left: 40.9%;
+  right: 47%;
+  top: 80.5%;
+  bottom: 50%;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+}
+@import url("https://fonts.googleapis.com/css?family=Roboto:400");
+
+/* Screen*/
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 1000px;
+  height: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
