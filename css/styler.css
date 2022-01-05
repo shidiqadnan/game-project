@@ -353,102 +353,6 @@ h1 {
   color: #ffffff;
 }
 
-.menu .leadtext-1 {
-  position: absolute;
-  border: transparent;
-  background: #ffffff;
-  left: 42.9%;
-  right: 47%;
-  top: 41.86%;
-  bottom: 55.55%;
-  width: 8%;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 14px;
-
-  /* identical to box height */
-
-  color: #ffffff;
-}
-.menu .leadtext-2 {
-  position: absolute;
-  border: transparent;
-  background: #ffffff;
-  left: 49.9%;
-  right: 47%;
-  top: 47.86%;
-  bottom: 55.55%;
-  width: 8%;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 14px;
-
-  /* identical to box height */
-
-  color: #ffffff;
-}
-.menu .leadtext-3 {
-  position: absolute;
-  border: transparent;
-  background: #ffffff;
-  left: 40.9%;
-  right: 47%;
-  top: 54.86%;
-  bottom: 50%;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 14px;
-
-  /* identical to box height */
-
-  color: #ffffff;
-}
-.menu .leadtext-4 {
-  position: absolute;
-  border: transparent;
-  background: #ffffff;
-  left: 40.9%;
-  right: 47%;
-  top: 42.86%;
-  bottom: 50%;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 14px;
-
-  /* identical to box height */
-
-  color: #ffffff;
-}
-.menu .leadtext-5 {
-  position: absolute;
-  border: transparent;
-  background: #ffffff;
-  left: 40.9%;
-  right: 47%;
-  top: 68.86%;
-  bottom: 50%;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 14px;
-
-  color: #ffffff;
-}
-
 .menu .lead-exited {
   position: absolute;
   left: 44.7%;
@@ -462,6 +366,31 @@ h1 {
   right: 39.09%;
   top: 78.14%;
   bottom: 31%;
+}
+
+table {
+  width: 15%;
+  border: 1px transparent;
+  position: absolute;
+  left: 41.9%;
+  right: 42.63%;
+  top: 39.86%;
+  bottom: 57.14%;
+}
+th,
+td {
+  text-align: left;
+  padding: 13px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #ffffff;
+}
+tr:nth-child(even) {
+  background-color: transparent;
 }
 
 @import url("https://fonts.googleapis.com/css?family=Roboto:400");
