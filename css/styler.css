@@ -123,14 +123,6 @@ h1 {
   bottom: 31%;
 }
 
-.menu .das_top-score {
-  position: absolute;
-  left: 37.7%;
-  right: 39.09%;
-  top: 20.14%;
-  bottom: 31%;
-}
-
 .menu .passwod {
   position: absolute;
   left: 40.3%;
@@ -163,21 +155,6 @@ h1 {
   color: #ffffff;
 }
 
-.menu .sekor {
-  position: absolute;
-  left: 46.5%;
-  right: 50.1%;
-  top: 23.43%;
-  bottom: 70.14%;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 14px;
-
-  color: #ffffff;
-}
-
 .menu .login_req {
   position: absolute;
   left: 45.5%;
@@ -201,6 +178,43 @@ h1 {
   top: 80.14%;
   bottom: 48.86%;
 }
+
+.menu .login_-box-3 {
+  position: absolute;
+  left: 42.3%;
+  right: 42.63%;
+  top: 40.86%;
+  bottom: 57.14%;
+}
+.menu .login_-box-4 {
+  position: absolute;
+  left: 42.3%;
+  right: 42.63%;
+  top: 47.86%;
+  bottom: 57.14%;
+}
+.menu .login_-box-5 {
+  position: absolute;
+  left: 42.3%;
+  right: 42.63%;
+  top: 54.86%;
+  bottom: 57.14%;
+}
+.menu .login_-box-6 {
+  position: absolute;
+  left: 42.3%;
+  right: 42.63%;
+  top: 61.86%;
+  bottom: 57.14%;
+}
+.menu .login_-box-7 {
+  position: absolute;
+  left: 42.3%;
+  right: 42.63%;
+  top: 68.86%;
+  bottom: 57.14%;
+}
+
 .menu .username {
   position: absolute;
   border: transparent;
@@ -237,7 +251,16 @@ h1 {
   line-height: 14px;
 }
 
-/* gambar top score */
+/* top score */
+
+.menu .das_top-score {
+  position: absolute;
+  left: 37.7%;
+  right: 39.09%;
+  top: 20.14%;
+  bottom: 31%;
+}
+
 .menu .start-play {
   position: absolute;
   left: 44.7%;
@@ -258,6 +281,186 @@ h1 {
   left: 44.7%;
   right: 39.09%;
   top: 94.14%;
+  bottom: 31%;
+}
+
+.menu .sekor {
+  position: absolute;
+  left: 46.5%;
+  right: 50.1%;
+  top: 23.43%;
+  bottom: 70.14%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #ffffff;
+}
+
+/* LEADERBOARD */
+
+.menu .das_leader-board {
+  position: absolute;
+  left: 37.7%;
+  right: 39.09%;
+  top: 20.14%;
+  bottom: 31%;
+}
+.menu .leadertext {
+  position: absolute;
+  left: 45.5%;
+  right: 50.1%;
+  top: 23.43%;
+  bottom: 70.14%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #ffffff;
+}
+
+.menu .lead-nametext {
+  position: absolute;
+  left: 42.5%;
+  right: 50.1%;
+  top: 37.43%;
+  bottom: 70.14%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #ffffff;
+}
+
+.menu .lead-scoretext {
+  position: absolute;
+  left: 52.5%;
+  right: 50.1%;
+  top: 37.43%;
+  bottom: 70.14%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #ffffff;
+}
+
+.menu .leadtext-1 {
+  position: absolute;
+  border: transparent;
+  background: #ffffff;
+  left: 42.9%;
+  right: 47%;
+  top: 41.86%;
+  bottom: 55.55%;
+  width: 8%;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+
+  /* identical to box height */
+
+  color: #ffffff;
+}
+.menu .leadtext-2 {
+  position: absolute;
+  border: transparent;
+  background: #ffffff;
+  left: 49.9%;
+  right: 47%;
+  top: 47.86%;
+  bottom: 55.55%;
+  width: 8%;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+
+  /* identical to box height */
+
+  color: #ffffff;
+}
+.menu .leadtext-3 {
+  position: absolute;
+  border: transparent;
+  background: #ffffff;
+  left: 40.9%;
+  right: 47%;
+  top: 54.86%;
+  bottom: 50%;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+
+  /* identical to box height */
+
+  color: #ffffff;
+}
+.menu .leadtext-4 {
+  position: absolute;
+  border: transparent;
+  background: #ffffff;
+  left: 40.9%;
+  right: 47%;
+  top: 42.86%;
+  bottom: 50%;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+
+  /* identical to box height */
+
+  color: #ffffff;
+}
+.menu .leadtext-5 {
+  position: absolute;
+  border: transparent;
+  background: #ffffff;
+  left: 40.9%;
+  right: 47%;
+  top: 68.86%;
+  bottom: 50%;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #ffffff;
+}
+
+.menu .lead-exited {
+  position: absolute;
+  left: 44.7%;
+  right: 39.09%;
+  top: 85.14%;
+  bottom: 31%;
+}
+.menu .playonlead {
+  position: absolute;
+  left: 44.7%;
+  right: 39.09%;
+  top: 78.14%;
   bottom: 31%;
 }
 
